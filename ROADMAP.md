@@ -9,7 +9,9 @@ Este roteiro descreve possibilidades futuras. Itens concluídos estão marcados;
 - [ ] Adicionar testes automatizados de componentes e fluxos principais.
 - [ ] Revisar acessibilidade: navegação por teclado, rótulos, contraste e responsividade.
 - [ ] Adicionar validação e estados de erro úteis aos formulários.
-- [ ] Fixar versões de dependências e versionar um lockfile npm.
+- [x] Fixar versões diretas de dependências.
+- [x] Configurar Dependabot para atualizações semanais.
+- [ ] Versionar um lockfile npm para instalações reproduzíveis.
 
 ## Produto
 
