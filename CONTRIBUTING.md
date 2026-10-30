@@ -1,32 +1,32 @@
-# Contributing
+# Contribuindo
 
-Thank you for considering a contribution to Personal Pro.
+Obrigado pelo interesse em contribuir com o Personal Pro.
 
-## Before starting
+## Preparar o ambiente
 
-1. Open an issue describing the bug or proposed improvement.
-2. Check existing issues and pull requests to avoid duplicated work.
-3. For substantial changes, discuss the approach before implementation.
-
-## Development setup
-
-Requirements: Node.js 20 or newer and pnpm.
+Requisitos: Node.js 20 ou superior e npm.
 
 ```bash
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
-Create a local `.env.local` only when testing Supabase integration. Never commit credentials, access tokens, service-role keys, or real user data.
+Esta versão é uma demonstração local, sem backend, autenticação ou serviços externos. Use somente dados fictícios. Não crie nem envie arquivos com credenciais, tokens, dados pessoais ou informações reais de alunos.
+
+## Antes de abrir uma contribuição
+
+1. Abra uma issue descrevendo o problema ou a melhoria proposta.
+2. Verifique se já existem issues ou pull requests semelhantes.
+3. Para mudanças maiores, discuta a abordagem antes de implementar.
 
 ## Pull requests
 
-- Keep changes focused and explain the user problem they solve.
-- Include clear steps to reproduce and verify the change.
-- Run `pnpm build` before opening a pull request.
-- Update documentation when behavior or setup changes.
-- Use screenshots for meaningful interface changes when practical.
+- Mantenha as alterações focadas e explique o problema que resolvem.
+- Inclua passos claros para reproduzir e verificar a mudança.
+- Execute `npm run build` antes de abrir o pull request.
+- Atualize a documentação quando o comportamento ou a configuração mudar.
+- Inclua capturas de tela para mudanças visuais relevantes, quando possível.
 
-## Reporting security issues
+## Relatar problemas de segurança
 
-Do not publish secrets or exploitable vulnerabilities in public issues. Follow [SECURITY.md](SECURITY.md).
+Não publique segredos ou detalhes exploráveis em issues públicas. Siga as orientações de [SECURITY.md](SECURITY.md).
